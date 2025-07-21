@@ -20,7 +20,7 @@ count = len(n1) + len(n2)
 # a list to remove letter after encounter 
 flames = ['F', 'L', 'A', 'M', 'E', 'S']
 index = 0
-# To continue a circular rotation usjng circulat queues logic
+# To continue a circular rotation using circulat queues logic
 while len(flames) > 1:
     index = (index + count - 1) % len(flames)
     flames.pop(index)
